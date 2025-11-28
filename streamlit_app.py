@@ -5,7 +5,7 @@ import tensorflow as tf
 import numpy as np
 
 # Load the saved model (assuming it's in the same path as during training)
-model = tf.keras.models.load_model('/content/drive/MyDrive/garbage_classifier_model.h5')
+model = tf.keras.models.load_model('garbage_classifier_model.h5')
 
 # Get image dimensions and class mapping from previous execution
 img_height = 128
